@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <form id="formulir">
+    
+       <h1>Kalkulator</h1>
+        
+        <label>Angka Satu</label>
+        <input type="text" name="angkaSatu" value="angka satu" onfocus="myFocus1()"/>
+        <label>Angka Dua</label>
+        <input type="text" name="angkaDua" value="angka dua" onfocus="myFocus2()"/>
+        <label>Hasil</label>
+        <input type="text" name="hasil" value="0" disabled/>
+        <input type="button" name="tambah" value="+" onclick="penjumlahan()"/>
+        <input type="button" name="kurang" value="-" onclick="pengurangan()"/>
+        <input type="button" name="kali" value="x" onclick="perkalian()"/>
+        <input type="button" name="bagi" value="/" onclick="pembagian()"/>
+        <input type="button" name="pangkat" value="^" onclick="perPangkatan()"/>
+        
+        <input type="submit" name="batal"  value="batal" onclick="kosongAll()"/>
+    
+        
+    </form>
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>
