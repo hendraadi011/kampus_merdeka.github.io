@@ -1,0 +1,57 @@
+*{
+    font-family: poppins;
+    text-align: center;
+  
+   
+}
+ body{
+     background: #222831;
+ }
+ h2{
+     font-size: 30px;
+     color: #77ABB7;
+ }
+ h2 span{
+     color: #FFD700;
+ }
+table{
+    width: 70%;
+    padding: 20px;
+    margin-top: 40px;
+  
+}
+table th{
+
+    padding: 20px 20px;
+    color: #2D6E7E;
+    font-size: 15px;
+    background: #FFD700;
+    
+    
+}
+table tbody tr td{
+    color: #77ABB7;
+    padding: 10px 30px;
+    height: 30px;
+    text-align: left;
+    background: #323C50;
+    
+
+}
+tbody{
+    font-size: 12px;
+}
+.dampak{
+    color: #ED6363;
+    text-align: center;
+}
+.skala{
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    color: #77ABB7;
+}
+h1 span{
+    color:#FFD700;
+}
