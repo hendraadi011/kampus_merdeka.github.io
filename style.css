@@ -1,0 +1,93 @@
+*{
+    font-family: 'poppins';
+}
+body{
+    background: #488FB1;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 70px;
+
+   
+    
+     
+ }
+ .gambar{
+    padding: 10px;
+    box-shadow: 0 15px 35px rgba(119, 111, 111, 0.2);
+    height: 300px;
+    border-radius: 20px;
+    width: 200px;
+    background: white;
+    justify-content: center;
+    
+ }
+ .g1{
+  
+    box-shadow: 0 15px 35px rgba(119, 111, 111, 0.2);
+    height: 230px;
+    border-radius: 20px 20px 5px 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 100%;
+    border: 1px solid #DBD0C0;
+    margin: auto;
+ }
+ .text1{
+     text-align: center;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-weight: bold;
+    
+ }
+ h1{
+     text-align: center;
+ }
+ 
+
+ /*--------- TUGAS KEDUA --------*/
+
+section{
+    
+    margin-top: 50px;
+    margin-bottom: 70px;
+
+}
+ .visi{
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+    background: #b8b8b8;
+    color: #0085c8;
+    border: 2px solid #0085c8;
+    border-radius: 10px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+
+ }
+ .conten{
+     margin: auto;
+     width: 50%;
+     margin-bottom: 10px;
+    background: #e5e3e4;
+    color: #0085c8;
+    border: 2px solid #0085c8;
+    border-radius: 10px 10px;
+    display: none;
+ }
+ p{
+     padding: 10px;
+ }
+ 
