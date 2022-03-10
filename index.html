@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>belajat Rwd Bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!--ini baris pertama-->
+      <div class="row">
+        <div class="col-md-12">
+          <!--awal caousel-->
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div
+                class="carousel-item active"
+                style="text-align: center; padding: 0; max-height: 300px"
+              >
+                <img
+                  src="image/foto1.jpg"
+                  style="margin-top: -250px"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div
+                class="carousel-item"
+                style="text-align: center; padding: 0; max-height: 400px"
+              >
+                <img src="image/foto1.jpg" style="margin-top: -250px""
+                class="d-block w-100" alt="..." />
+              </div>
+              <div
+                class="carousel-item"
+                style="text-align: center; padding: 0; max-height: 400px"
+              >
+                <img src="image/foto1.jpg" style="margin-top: -250px""
+                class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!--akhir carusol-->
+        </div>
+      </div>
+      <!--ini baris kedua-->
+      <div class="row">
+        <div class="col-md-12">
+          <!--awal nav-->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid" style="background: green">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-house-door-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  style="color: white"
+                  d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"
+                />
+              </svg>
+
+              <a
+                class="navbar-brand"
+                href="#"
+                style="
+                  color: white;
+                  font-size: 30px;
+                  margin-left: 10px;
+                  font-family: poppins;
+                "
+                >GriyaHouse</a
+              >
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul
+                  class="navbar-nav me-auto mb-2 mb-lg-0"
+                  style="color: white; margin: auto; padding: 5px"
+                >
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#"
+                      style="color: white"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: white">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      style="color: white"
+                    >
+                      Vila
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="navbarDropdown"
+                      style="
+                        background: green;
+                        border: 1px solid white;
+                        margin-top: 20px;
+                      "
+                    >
+                      <li>
+                        <a class="dropdown-item" style="color: white" href="#"
+                          >Action</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" style="color: white" href="#"
+                          >Another action</a
+                        >
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" style="color: white" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <!--  -->
+                    <a class="nav-link disabled" style="color: white">
+                      Buy/sel</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <!--  -->
+                    <a class="nav-link disabled" style="color: white">
+                      contack</a
+                    >
+                  </li>
+                </ul>
+                <form class="d-flex" style="padding: 5px">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="cari rumah impian"
+                    aria-label="Search"
+                    style="border: 1px solid white"
+                  />
+                  <button
+                    class="btn btn-outline-success"
+                    type="submit"
+                    style="border: 1px solid white; color: white"
+                  >
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!--akhir nav-->
+        </div>
+      </div>
+      <!--ini baris ketiga-->
+      <!--left content-->
+      <div class="row">
+        <div class="col-sm-2">
+          <div class="dropdown" style="margin: 5px">
+            <a
+              class="btn btn-secondary dropdown-toggle"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              style="font-size: 11px; background: grey; font-family: poppins"
+            >
+              Cari properti<br />
+              berdasarkan wilayah
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="#" style="color: green">Aceh</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" style="color: green"
+                  >Surabaya</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" style="color: green"
+                  >Bandung</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" style="color: green"
+                  >Jakarta</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" style="color: green"
+                  >Malang</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" style="color: green"
+                  >Lampung</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" style="color: green">Bogor</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" style="color: green"
+                  >Semarang</a
+                >
+              </li>
+            </ul>
+          </div>
+          <img src="image/foto3.jpg" class="img-fluid" alt="..." />
+
+          <img
+            src="image/iklan1.JPG"
+            class="img-fluid"
+            alt="..."
+            style="margin-top: 10px"
+          />
+          <img
+            src="image/iklan1.JPG"
+            class="img-fluid"
+            alt="..."
+            style="margin-top: 10px"
+          />
+        </div>
+
+        <!-- akhir left content-->
+
+        <div class="col-sm-8">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-home"
+                type="button"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                Galeri
+              </button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                Rumah second
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-contact-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-contact"
+                type="button"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                Rumah Baru
+              </button>
+            </li>
+          </ul>
+
+          <!-- conten-->
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+            >
+              <!--acrodion-->
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                      style="background: green; color: white; margin: 5px"
+                    >
+                      Galeri 1
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="image/g1.jpg"
+                        class="img-fluid"
+                        alt="..."
+                        style="margin-top: 10px"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                      style="background: green; color: white; margin: 5px"
+                    >
+                      Galeri 2
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="image/g2.jpg"
+                        class="img-fluid"
+                        alt="..."
+                        style="margin-top: 10px"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                      style="background: green; color: white; margin: 5px"
+                    >
+                      Galeri 3
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="image/g3.jpg"
+                        class="img-fluid"
+                        alt="..."
+                        style="margin-top: 10px"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--akhir acordion-->
+            </div>
+
+            <!--table-->
+            <div
+              class="tab-pane fade"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+            >
+              <table class="table caption-top">
+                <caption>
+                  List of users
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Almat</th>
+                    <th scope="col">Spesifikasi</th>
+                    <th scope="col">Harga</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Nusa Dua</td>
+                    <td>
+                      Luas Tanah : 107m2 <br />Luas Bangunan : 128m2 <br />
+                      Kamar Tidur : 2
+                    </td>
+                    <td>IDR RP.3.200.000.000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Nusa Dua</td>
+                    <td>
+                      Luas Tanah : 107m2 <br />Luas Bangunan : 128m2 <br />
+                      Kamar Tidur : 2
+                    </td>
+                    <td>IDR RP.3.200.000.000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Nusa Dua</td>
+                    <td>
+                      Luas Tanah : 107m2 <br />Luas Bangunan : 128m2 <br />
+                      Kamar Tidur : 2
+                    </td>
+                    <td>IDR RP.3.200.000.000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--akhir table-->
+            <!-- cards-->
+            <div
+              class="tab-pane fade"
+              id="pills-contact"
+              role="tabpanel"
+              aria-labelledby="pills-contact-tab"
+            >
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="image/foto1.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                      style="width: 300px; padding: 20px"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Spesifikasi</h5>
+                      <p class="card-text">
+                        Desain yang sangat kami perhatikan dari setiap sudut
+                        ruangan yang akan memberikan kesan mewah dan eksklusif
+                        untuk Anda. Dengan desain yang artistic dan didukung
+                        dengan tema modern dapat memberikan kesejukan alami
+                        dengan nuansa elegan sekaligus nyaman bagi Anda
+                      </p>
+                      <br />
+                      Promo Bulan Ini Fully Furnished
+                      <ul>
+                        <li><b>IDR 3.080.000.000</b></li>
+                        <li><b>DR 2.850.000.000</b></li>
+                      </ul>
+
+                      <p class="card-text">
+                        <small class="text-muted"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="image/foto2.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                      style="width: 300px; padding: 20px"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Spesifikasi</h5>
+                      <p class="card-text">
+                        Desain yang sangat kami perhatikan dari setiap sudut
+                        ruangan yang akan memberikan kesan mewah dan eksklusif
+                        untuk Anda. Dengan desain yang artistic dan didukung
+                        dengan tema modern dapat memberikan kesejukan alami
+                        dengan nuansa elegan sekaligus nyaman bagi Anda
+                      </p>
+                      <br />
+                      Promo Bulan Ini Fully Furnished
+                      <ul>
+                        <li><b>IDR 3.080.000.000</b></li>
+                        <li><b>DR 2.850.000.000</b></li>
+                      </ul>
+
+                      <p class="card-text">
+                        <small class="text-muted"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--akhir cards-->
+        </div>
+
+        <div class="col-sm-2">
+          <img
+            src="image/iklan2.JPG"
+            class="img-fluid"
+            alt="..."
+            style="margin-top: 10px"
+          />
+          <img
+            src="image/iklan3.webp"
+            class="img-fluid"
+            alt="..."
+            style="margin-top: 10px"
+          />
+        </div>
+      </div>
+
+      <!--ini baris keempat-->
+      <div
+        class="row"
+        style="background: green; margin-top: 10px; padding: 13px"
+      >
+        <div class="col-md-12" style="color: white; text-align: center">
+          <i>hendraadisaputra@2022</i>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</html>
